@@ -1,0 +1,375 @@
+body {
+  background-image: url("../img/index2.png");
+  height: 100%;
+
+}
+
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+/* INICIO HEADER */
+
+
+.nav {
+  background: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* border-top: 8px solid #fff;
+  border-left: 8px solid #fff;
+  border-right: 8px solid #fff;
+  border-bottom: 8px solid #fff; */
+  text-align: center;
+  padding: 50px 100px;
+  height: 100vh;
+  display: table-cell;
+
+}
+
+/* INICIO LOGO */
+
+#logo {
+    background-image: url("../img/logo.png");
+  background-size: 280px 210px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 280px;
+  margin-left: auto;
+}
+
+/* FIN LOGO */
+
+/* INICIO LOGIN */
+
+#ingreso {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: #646464;
+}
+
+#user {
+  width: 280px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1.5px solid #325f5a;
+  margin-bottom: 5px;
+}
+
+#user:focus {
+  border: 0.25px solid #96beb9;
+}
+
+#password {
+  width: 280px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1.5px solid #325f5a;
+margin-bottom: 20px;
+}
+
+#password:focus {
+  border: 1px solid #96beb9;
+}
+
+#boton {
+    width: 160px;
+  background: #143732;
+  height: 43px;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 10px;
+    border: 1px solid #143732;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#boton:hover {
+  background-color: #fff;
+  color: #143732;
+    font-size: 22px;
+  transition: all 0.5s ease;
+}
+
+/* FIN LOGIN */
+
+/* INICIO REDES */
+
+#redes {
+  height: 50px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 230px;
+
+}
+
+#redes ul li {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 23px;
+  border-top: 25%;
+  padding-top: 7px;
+}
+
+#redes ul li:hover {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 8px;
+  border-radius: 23px;
+  border: #3b5998;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease;
+}
+
+#logo1 {
+  background-color: #3b5998;
+}
+
+#logo2 {
+  background-color: #00acee;
+}
+
+#logo3 {
+  background-color: #3f729b;
+}
+
+/* FIN REDES */
+
+/* FIN HEADER */
+@media (min-width: 992px){
+  .nav{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+  }
+}
+@media screen and (max-width:1200px) {
+
+
+  header{
+    margin-top: 0;
+
+  }
+  .nav{
+    position: none;
+    width: 500px;
+  }
+
+  #logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  #login{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width:992px) {
+
+
+  .container {
+    padding-left:auto;
+    padding-right: auto;
+  }
+
+  header{
+    margin-top: 0;
+
+  }
+  .nav{
+    position: none;
+    width: 500px;
+    height: 100vh;
+  }
+
+  #logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+
+}
+@media screen and (max-width:500px) {
+
+  .container {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  header {
+    margin: 0px;
+    padding: 0;
+  }
+
+  header .nav {
+    height: 100vh;
+    padding: 0px 0px;
+    margin-left: auto;
+  }
+
+  #logo {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #login {
+    width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #redes {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width:376px) {
+
+  .container {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header {
+    margin: 0px;
+    padding: 0;
+  }
+  header .nav {
+    height: 100vh;
+    padding: 0px 0px;
+    margin: 0;
+  }
+
+  #logo {
+    width: 220px;
+    margin-left: auto;
+    background-size: 220px 190px;
+  }
+  #login {
+    width: 220px;
+    margin-left: auto;
+  }
+  #user {
+    width: 240px;
+  }
+  #user:focus {
+    width: 240px;
+  }
+  #password {
+    width: 240px;
+  }
+  #password:focus {
+    width: 240px;
+  }
+  #boton {
+    width: 120px;
+  }
+  #boton:hover {
+    width: 120px;
+  }
+  /* FIN LOGIN */
+  /* INICIO REDES */
+  #redes {
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 20px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* FIN REDES */
+    /* FIN HEADER */
+  }
+  #redes ul li {
+    margin-right: 3px;
+  }
+
+  #redes ul li:hover {
+    margin-right: 3px;
+  }
+}
+@media screen and (max-width:290px) {
+
+  .container {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header {
+    margin: 0px;
+    padding: 0;
+  }
+  header .nav {
+    height: 100vh;
+    padding: 0px 0px;
+    margin: 0;
+  }
+
+  #logo {
+    width: 220px;
+    background-size: 220px 190px;
+    margin-left: 0;
+  }
+  #login {
+    width: 220px;
+  }
+  #user {
+    width: 200px;
+    margin-left: 1px;
+  }
+  #user:focus {
+    width: 200px;
+  }
+  #password {
+    width: 200px;
+  }
+  #password:focus {
+    width: 200px;
+  }
+  #boton {
+    width: 120px;
+  }
+  #boton:hover {
+    width: 120px;
+  }
+  /* FIN LOGIN */
+  /* INICIO REDES */
+  #redes {
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 20px;
+    width: auto;
+    margin-left: auto;
+    /* FIN REDES */
+    /* FIN HEADER */
+  }
+
+  #redes ul li {
+    margin-right: 3px;
+  }
+
+  #redes ul li:hover {
+    margin-right: 3px;
+  }
+
+
+}

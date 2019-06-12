@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.row {
+  margin-right: 0px;
+}
+
+div.container-fluid {
+  padding-right: 0px;
+}
+
+/* INICIO HEADER */
+
+header {
+  background-color: #325f5a;
+  border-bottom: 2px solid #143732;
+}
+
+#logo_principal {
+  background-image: url("../img/logo.png");
+  background-size: 80% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 140px;
+  float: left;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+#cont {
+  float: right;
+  margin-right: 25px;
+}
+
+#cont ul li {
+  display: block;
+  float: left;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#cont ul {
+  list-style-type: none;
+}
+
+#cont ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#cont ul li a:hover {
+  display: block;
+  text-decoration: none;
+  color: #96beb9;
+  transition: all 0.5s ease;
+}
+
+/* FIN  HEADER */
+
+/*INICIO SECTION*/
+
+#ques{
+    height: auto;
+    background-color: white;
+    
+}
+
+#txt{
+    float: left;
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 230px;
+    
+}
+#txt h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+#txt p{
+    text-align: justify;    
+    font-size: 18px;
+}
+
+#usar{
+    height: auto;
+    background-color: #96BEB9;
+    padding-top: 20px;
+    
+}
+#cajitas{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#usar h1{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+#conten{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: inline-block;
+    margin-right: 40px;
+    padding-left: 0;
+    margin-bottom: 150px;
+}
+
+#conten h4{
+    margin-top: 10px;
+    color: #96BEB9;
+}
+#conten p{
+    margin-left: 10px;
+}
+
+#contact{
+    background-color: white;
+    height: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#contacto {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #646464;
+    color: #fff;
+    padding: 25px;
+    margin-left: 30%;
+    max-width: 550px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    padding: 0 0 30px 10px;
+    text-align: center;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #f4f4f4;
+    color: #000;
+    border: 2px solid #143732;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+
+#boton {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color:white;
+    font-size:22px;
+    background: #143732;
+    border: 1px solid #143732;
+    cursor: pointer;
+    text-decoration: none;
+}
+#boton:hover {
+  background-color: #fff;
+  color: #143732;
+    font-size: 22px;
+  transition: all 0.5s ease;
+}
+/*FIN SECTION*/
+
+/* INICIO FOOTER */
+
+footer {
+  background-color: #325f5a;
+  border-top: 2px solid #143732;
+	
+}
+
+#redes {
+  float: right;
+  height: 50px;
+  margin-right: 20px;
+    margin-top: -10px;
+}
+
+#redes ul li {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 23px;
+  border-top: 25%;
+  padding-top: 7px;
+}
+
+#redes ul li:hover {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 23px;
+  border: #3b5998;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease;
+}
+
+#logo1 {
+  background-color: #3b5998;
+}
+
+#logo2 {
+  background-color: #00acee;
+}
+
+#logo3 {
+  background-color: #3f729b;
+}
+
+/*FIN FOOTER */
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width:576px) {}
+
+@media screen and (max-width:575px) {
+  #logo_principal {
+    margin-left: 40%;
+  }
+  #cont {
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width:493px) {
+  #logo_principal {
+    margin-left: 30%;
+  }
+  #cont {
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width:465px) {
+  #logo_principal {
+    margin-left: 30%;
+  }
+  #cont {
+    margin-right: 7%;
+  }
+}
+
+@media screen and (max-width:290px) {
+  #logo_principal {
+    margin-left: 20%;
+    height: 70px;
+    width: 120px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}
